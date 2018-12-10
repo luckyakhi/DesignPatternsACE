@@ -1,6 +1,6 @@
 package ace.java.designpatterns.behavioural.template;
 
-import com.luckyakhi.designpatterns.domain.Trade;
+import ace.java.designpatterns.domain.Trade;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,6 +1,6 @@
 package ace.java.designpatterns.structural.decorater;
 
-import com.luckyakhi.designpatterns.domain.Trade;
+import ace.java.designpatterns.domain.Trade;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

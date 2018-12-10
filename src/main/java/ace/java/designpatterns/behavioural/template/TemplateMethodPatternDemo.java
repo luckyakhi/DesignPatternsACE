@@ -1,6 +1,7 @@
 package ace.java.designpatterns.behavioural.template;
 
-import com.luckyakhi.designpatterns.domain.Trade;
+
+import ace.java.designpatterns.domain.Trade;
 
 import java.util.Date;
 

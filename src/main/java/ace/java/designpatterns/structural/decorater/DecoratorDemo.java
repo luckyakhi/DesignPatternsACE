@@ -1,6 +1,6 @@
 package ace.java.designpatterns.structural.decorater;
 
-import com.luckyakhi.designpatterns.domain.Trade;
+import ace.java.designpatterns.domain.Trade;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
