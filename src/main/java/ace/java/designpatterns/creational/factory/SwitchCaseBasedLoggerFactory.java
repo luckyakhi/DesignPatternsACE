@@ -1,6 +1,6 @@
 package ace.java.designpatterns.creational.factory;
 
-import ace.java.designpatterns.creational.ace.java.design.patterns.common.Logger;
+import ace.java.designpatterns.creational.common.Logger;
 
 public class SwitchCaseBasedLoggerFactory implements LoggerFactory {
 

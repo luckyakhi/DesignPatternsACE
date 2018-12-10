@@ -1,6 +1,6 @@
 package ace.java.designpatterns.creational.singleton;
 
-import ace.java.designpatterns.creational.ace.java.design.patterns.common.Logger;
+import ace.java.designpatterns.creational.common.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;

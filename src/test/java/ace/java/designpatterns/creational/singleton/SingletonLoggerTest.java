@@ -1,9 +1,8 @@
 package ace.java.designpatterns.creational.singleton;
 
-import ace.java.designpatterns.creational.ace.java.design.patterns.common.Logger;
+import ace.java.designpatterns.creational.common.Logger;
 import org.junit.Assert;
 import org.junit.Test;
-import sun.rmi.runtime.Log;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
