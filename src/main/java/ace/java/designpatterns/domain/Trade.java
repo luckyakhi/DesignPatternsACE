@@ -1,15 +1,18 @@
 package ace.java.designpatterns.domain;
 
 
+import java.lang.reflect.Field;
 import java.time.LocalDate;
 import java.util.Date;
+import java.util.Iterator;
 import java.util.Objects;
 
-public class Trade {
+public class Trade implements Iterable<Field> {
     private Date tradeDate;
     private String trader;
     private String product;
     private String counterParty;
+    private boolean authorized;
 
     private Date settlementDate;
     public Trade(Date tradeDate, String trader, String product, String counterParty) {
@@ -81,5 +84,10 @@ public class Trade {
     public int hashCode() {
 
         return Objects.hash(tradeDate, trader, product, counterParty, settlementDate);
+    }
+
+    @Override
+    public Iterator<Field> iterator() {
+        return null;
     }
 }
